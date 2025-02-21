@@ -23,10 +23,7 @@ As "project name" specify `HelloWorld`! Leave the other settings with their defa
 
 Now, your project should have a `src` folder.
 
-Next step, is to create a package in the `src` folder. Right click on the `src` folder and add a package.
-The package name should be all lowercase characters and it may contains dots. E.g. you could create a package `de.hts.helloworld`.
-
-Now, right click on the package and create a new class. The name should start with an uppercase letter. E.g. you could name the class `App`. Before you click Finish, check the option to create the `public static void main(String[] args)`! If you need to add a second class, there is no more `public static void main(String[] args)` in the additional classes needed, since the is only one class in the project, that should be started.
+Now, right click on the `src` and create a new class. The name should start with an uppercase letter. E.g. you could name the class `App`. Before you click Finish, check the option to create the `public static void main(String[] args)`! If you need to add a second class, there is no more `public static void main(String[] args)` in the additional classes needed, since the is only one class in the project, that should be started.
 
 Do not include other tasks you work on in this project. Just create a new project in your workspace!
 
@@ -38,12 +35,10 @@ T.B.D.
 
 Create a new folder to contain the project.
   - Go to your workplace folder, e.g. `/Users/school/src` or `c:\users\school\src`.
-  - Create folders for the new project, e.g. `mkdir -p HelloWorld/src/de/hts/helloworld` on Mac. If you work on Windows you need to create each folder one after another. Also create a folder `HelloWorld/bin`.
+  - Create folders for the new project, e.g. `mkdir HelloWorld HelloWorld/bin HelloWorld/src`. 
   - Create a text file `App.java` in this folder and add your content:
 
 ```
-package de.hts.helloworld;
-
 public class App {
 
 	public static void main(String[] args) {
@@ -56,17 +51,14 @@ public class App {
 
 To compile the class, run inside `/Users/school/src/HelloWorld`
 
-    javac -d bin src/de/hts/helloworld/App.java
+    javac -d bin src/App.java
 
-After this, you should have a file `bin/de/hts/helloworld/App.class`.
+After this, you should have a file `bin/App.class`.
 
 Now, you could run your compiled class file inside `/Users/school/src/HelloWorld`:
 
-    java -cp bin de.hts.helloworld.App
+    java -cp bin App
 
-or
-
-    java -cp bin de/hts/helloworld/App
 
 
 
