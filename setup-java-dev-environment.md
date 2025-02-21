@@ -30,6 +30,43 @@ Now, right click on the package and create a new class. The name should start wi
 
 Do not include other tasks you work on in this project. Just create a new project in your workspace!
 
+## Setup a New Project With JetBrains IDE
+
+T.B.D.
+
+## Setup a New Project Without any IDE
+
+Create a new folder to contain the project.
+  - Go to your workplace folder, e.g. `/Users/school/src` or `c:\users\school\src`.
+  - Create folders for the new project, e.g. `mkdir -p HelloWorld/src/de/hts/helloworld` on Mac. If you work on Windows you need to create each folder one after another. Also create a folder `HelloWorld/bin`.
+  - Create a text file `App.java` in this folder and add your content:
+
+```
+package de.hts.helloworld;
+
+public class App {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
+```
+
+To compile the class, run inside `/Users/school/src/HelloWorld`
+
+    javac -d bin src/de/hts/helloworld/App.java
+
+After this, you should have a file `bin/de/hts/helloworld/App.class`.
+
+Now, you could run your compiled class file inside `/Users/school/src/HelloWorld`:
+
+    java -cp bin de.hts.helloworld.App
+
+or
+
+    java -cp bin de/hts/helloworld/App
 
 
 
