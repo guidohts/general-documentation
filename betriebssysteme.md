@@ -21,7 +21,13 @@ Dateitypen: Textdateien, Binärdateien, Ausführbare Dateien
 
 ### Absolute und relative Dateinamen
 
-Absoluter Pfad geht mit "/" los, relativer Pfad nicht
+Absoluter Pfad geht mit "/" los, relativer Pfad nicht.
+
+Aufgaben:
+
+- Du befindest dich im Ordner `/Users/schule`. Das Kommando `ls` zeigt den Ordner `foo` an. Gib den absoluten
+  Pfad des Ordners `foo` an!
+- Du befindest dich im Ordner `/Users/schule/foo`. Gib den relativen Pfad zur Datei `/Users/schule/bar/baz.txt` an!
 
 ### Verzeichnisbaum und Dateisysteme
 
