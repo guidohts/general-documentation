@@ -21,7 +21,7 @@ Dateitypen: Textdateien, Binärdateien, Ausführbare Dateien
 
 ### Absolute und relative Dateinamen
 
-Absoluter Pfad geht mit "/" los, relativer Pfad nicht.
+Absoluter Pfad beginnt mit `/`, relativer Pfad beginnt nicht `/`.
 
 *Aufgaben*:
 
