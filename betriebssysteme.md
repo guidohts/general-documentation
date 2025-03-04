@@ -10,15 +10,28 @@ HINWEIS: Wir betrachten hier ausschließlich UNIX/Linux
 ### Aufbau, Architektur
 ### Distributionen
 
-Wichtige Distributionen bei Linux sind Debian/Ubuntu und Fedora/RedHat-Enterprise-Linux
+Wichtige Distributionen bei Linux sind Debian/Ubuntu und Fedora/RedHat-Enterprise-Linux (RHEL) OpenSuSE/SLES
 
 ## Dateiverwaltung
 
 ### Namenskonventionen, Dateitypen
+
+Namenskonventionen: Kaum Einschränkungen
+Dateitypen: Textdateien, Binärdateien, Ausführbare Dateien
+
 ### Absolute und relative Dateinamen
+
+Absoluter Pfad geht mit "/" los, relativer Pfad nicht
+
 ### Verzeichnisbaum und Dateisysteme
-### Umgang mit Dateien (Kopieren, Erstellen, Verschieben, Löschen, Inhalte anzeigen, Archivie-
-ren, Komprimieren)
+
+Die Wurzel des Baums wird mit "/" bezeichnet.
+Kommandos df und du
+
+### Umgang mit Dateien (Kopieren, Erstellen, Verschieben, Löschen, Inhalte anzeigen, Archivieren, Komprimieren)
+
+
+
 ### Suchmuster für Dateien, reguläre Ausdrücke
 ### Ein- und Ausgabeumlenkung und Kommandopipelines
 ### Texteditor
