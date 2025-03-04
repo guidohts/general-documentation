@@ -36,19 +36,19 @@ Kommandos df und du
 
 ### Umgang mit Dateien (Kopieren, Erstellen, Verschieben, Löschen, Inhalte anzeigen, Archivieren, Komprimieren)
 
-  cp
+- `cp`
 
-  touch
+- `touch`
 
-  mv 
+- `mv` 
 
-  rm
+- `rm`
 
-  rmdir
+- `rmdir`
 
-  cat 
+- `cat`
 
-  more
+- `more`
 
 ### Suchmuster für Dateien, reguläre Ausdrücke
 ### Ein- und Ausgabeumlenkung und Kommandopipelines
