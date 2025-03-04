@@ -33,7 +33,12 @@ Absoluter Pfad beginnt mit `/`, relativer Pfad beginnt nicht `/`.
 
 Die Wurzel des Baums wird mit `/` bezeichnet.
 
-Kommandos `df` und `du`.
+- `ls`
+- `df`
+- `du`
+- `cd`
+- `mkdir`
+- `pwd`
 
 *Aufgaben*:
 
