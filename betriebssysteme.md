@@ -31,8 +31,14 @@ Absoluter Pfad geht mit "/" los, relativer Pfad nicht.
 
 ### Verzeichnisbaum und Dateisysteme
 
-Die Wurzel des Baums wird mit "/" bezeichnet.
-Kommandos df und du
+Die Wurzel des Baums wird mit `/` bezeichnet.
+
+Kommandos `df` und `du`.
+
+*Aufgaben*:
+
+- Erkläre die Wirkung der oben genanten Kommandos!
+
 
 ### Umgang mit Dateien (Kopieren, Erstellen, Verschieben, Löschen, Inhalte anzeigen, Archivieren, Komprimieren)
 
