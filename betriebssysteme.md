@@ -37,18 +37,19 @@ Kommandos df und du
 ### Umgang mit Dateien (Kopieren, Erstellen, Verschieben, Löschen, Inhalte anzeigen, Archivieren, Komprimieren)
 
 - `cp`
-
 - `touch`
-
 - `mv` 
-
 - `rm`
-
 - `rmdir`
-
 - `cat`
-
 - `more`
+
+Aufgaben:
+
+- Erkläre die Wirkung der oben genanten Kommandos!
+- Wann kann das Kommando `rmdir` nicht verwendet werden?
+- Welches Kommondo muss ich benutzen und welche Aufrufoption muss ich mitgeben, um einen Ordner mit Inhalt zu löschen?
+- Welche Aufrufoption muss ich bei `rm` mitgeben, um schreibgeschützte Dateien zu löschen?
 
 ### Suchmuster für Dateien, reguläre Ausdrücke
 ### Ein- und Ausgabeumlenkung und Kommandopipelines
