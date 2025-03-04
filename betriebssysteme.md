@@ -23,7 +23,7 @@ Dateitypen: Textdateien, Binärdateien, Ausführbare Dateien
 
 Absoluter Pfad geht mit "/" los, relativer Pfad nicht.
 
-Aufgaben:
+*Aufgaben*:
 
 - Du befindest dich im Ordner `/Users/schule`. Das Kommando `ls` zeigt den Ordner `foo` an. Gib den absoluten
   Pfad des Ordners `foo` an!
@@ -44,7 +44,7 @@ Kommandos df und du
 - `cat`
 - `more`
 
-Aufgaben:
+*Aufgaben*:
 
 - Erkläre die Wirkung der oben genanten Kommandos!
 - Wann kann das Kommando `rmdir` nicht verwendet werden?
