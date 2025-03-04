@@ -43,7 +43,8 @@ Die Wurzel des Baums wird mit `/` bezeichnet.
 *Aufgaben*:
 
 - Erkläre die Wirkung der oben genanten Kommandos!
-
+- Welche Option muss ich bei `ls` angeben, damit ich ausführliche Informationen zu jeder Datei und jedem Ordner angezeigt bekomme?
+- Welche Option muss ich bei `ls` angeben, damit ich ausgeblendete Dateien und Ordner angezeigt bekomme?
 
 ### Umgang mit Dateien (Kopieren, Erstellen, Verschieben, Löschen, Inhalte anzeigen, Archivieren, Komprimieren)
 
