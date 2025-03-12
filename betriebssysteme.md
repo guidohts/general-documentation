@@ -23,7 +23,7 @@ Dateitypen: Textdateien, Binärdateien, Ausführbare Dateien
 
 Absoluter Pfad beginnt mit `/`, relativer Pfad beginnt nicht `/`.
 
-*Aufgaben*:
+*Aufgaben:*
 
 - Du befindest dich im Ordner `/Users/schule`. Das Kommando `ls` zeigt den Ordner `foo` an. Gib den absoluten
   Pfad des Ordners `foo` an!
@@ -40,7 +40,7 @@ Die Wurzel des Baums wird mit `/` bezeichnet.
 - `mkdir`
 - `pwd`
 
-*Aufgaben*:
+*Aufgaben:*
 
 - Erkläre die Wirkung der oben genanten Kommandos!
 - Welche Bedeutung hat der Ordner `.`?
@@ -66,5 +66,26 @@ Die Wurzel des Baums wird mit `/` bezeichnet.
 - Welche Aufrufoption muss ich bei `rm` mitgeben, um schreibgeschützte Dateien zu löschen?
 
 ### Suchmuster für Dateien, reguläre Ausdrücke
+
+- `*`
+- `?`
+
+*Aufgaben:*
+
+- Erkläre, wofür die beiden Platzhalter stehen!
+- Aus einer vorgegeben Liste von Dateinamen entwickle Ausdrücke, um bestimmte Dateien auszufiltern!
+
 ### Ein- und Ausgabeumlenkung und Kommandopipelines
+
+- `<`
+- `>`
+- `>>`
+- `|`
+- Kanäle `stdin (0)`, `stdout (1)`, `stderr (2)`
+
+*Aufgaben:*
+
+- Mach dich mit den drei Kanälen vertraut!
+- Beschreibe die Wirkung der oben genannten Operatoren!
+
 ### Texteditor
