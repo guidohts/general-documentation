@@ -70,6 +70,13 @@ Die Wurzel des Baums wird mit `/` bezeichnet.
 - `*`
 - `?`
 
+*Hinweis:*
+
+Die oben genannten Platzhalter werden zum Suchen nach Dateien unter Unix/Linux verwendet. Darüber hinaus
+gibt es noch andere reguläre Ausdrücke, die an anderen Stellen des Betriebssystems und in 
+Programmiersprachen verwendet werden können. Diese Ausdrücke sind erheblich komplizierter und nicht Bestandteil 
+dieses Kurses.
+
 *Aufgaben:*
 
 - Erkläre, wofür die beiden Platzhalter stehen!
