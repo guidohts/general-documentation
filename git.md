@@ -76,4 +76,13 @@ Die Änderungen sind dann auch auf der Webseite von GitHub zu sehen. Wenn du auf
 
 ```git pull```
 
+## Wichtige Hinweise
+
+Entweder du beginnst mit einem neuen Projekt auf GitHub, fügst eine `README.md` hinzu und klonst dann das Projekt auf deinen Rechner.
+
+Wenn du jedoch lokal beginnen möchtest, und noch kein Projekt auf GitHub hast, dann kannst du dein leeres Repository auch lokal erzeugen mit dem Kommando
+
+```git init```
+
+Du kannst dann deine Änderungen alle lokal auf deinen Rechner "committen". Falls du dann später doch ein Repository auf GitHub anlegen möchtest, achte darauf, diesmal *keine* `README.md` oder eine andere Datei zuzufügen! GitHub zeigt dir an, wie du dein lokales Repository auf GitHub hochladen kannst.
 
