@@ -107,3 +107,7 @@ Jemand, der dazu berechtigt ist, vielleicht auch du selbst, schaut sich deinen P
 Wechsle auf deinem Computer wieder auf den `main`-Branch zurück und führe ein `git pull` durch! Damit holst du dir den aktuellen Stand des `main`-Branches von GitHub, der nun auch deine Änderungen enthält. Der Branch, den du vorher auf deinem Gerät erstellt hast, wird jetzt nicht mehr benötigt und du solltest ihn nun löschen.
 
 Möchtest du eine weitere Änderung erstellen, erzeuge dir wieder einen neuen Branch aus dem aktuellen `main`-Branch.
+
+## Eine Änderung für ein Repository vorschlagen, auf das du keine Rechte hast
+
+Möchtest Änderungen für ein Repo vorschlagen, worauf du keine Schreibrechte hast, und dessen Besitzer/in du möglicherweise nicht kennst, verwende den Button `Fork`. Damit erzeugst du eine lokale Kopie des fremden Repos in deinem GitHub-Account. Wenn du dann einen Pull-Request erstellst, dann wird dieser an das Original-Repo übertragen. Vielleicht hast du ja Glück, und der Eigentümer des Original-Repos akzeptiert deinen Pull-Request.
