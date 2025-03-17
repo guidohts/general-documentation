@@ -19,6 +19,8 @@
 
   ```git config --global user.email monalisa@users.noreply.github.com```
 
+  ```git config --global init.defaultBranch main```
+
   Optional kannst du einrichten, dass du das später zu erzeugende Token auf deinem Rechner speichern möchtest:
 
   ```git config --global credential.helper store```
