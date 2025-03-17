@@ -96,6 +96,14 @@ Dazu kennt Git das Konzept der Verzweigungen - Branches. Wenn du alleine arbeite
 
 Wenn du mit anderen Leuten zusammenarbeitest, werden die anderen Leute sicherlich andere Teile des Projekts bearbeitet. Damit jede(r) Mitarbeiter/in für sich ungestört arbeiten kann, erzeugt er/sie sich einen Branch für die aktuelle Aufgabe, die gerade von ihm/ihr bearbeitet wird.
 
-Diesen Branch kannst du zuerst lokal erzeugen auf deinem PC. Deine Änderungen machst du dann ausschließlich auf deisem Branch. Bist du fertig mit all deinen Änderungen, dann veröffentlichst du deinen Branch auf GitHub. Noch ist der `main`-Branch davon nicht beeinflusst.
+Diesen Branch kannst du zuerst lokal erzeugen auf deinem PC. Deine Änderungen machst du dann ausschließlich auf deisem Branch. Bist du fertig mit deinen Änderungen, dann veröffentlichst du deinen Branch auf GitHub. Noch ist der `main`-Branch davon nicht beeinflusst.
 
+Möchtest du noch Änderungen in deinem Branch durchführen, kannst du das jederzeit tun und die Änderungen wieder zu GitHub schicken.
 
+Wenn du zu der Überzeugung gelangt bist, dass dein Branch nun in den `main`-Branch integriert werden soll, dann erstellst du dafür einen Pull-Request.
+
+Jemand, der dazu berechtigt ist, vielleicht auch du selbst, schaut sich deinen Pull-Request an und prüft, ob dein Branch nun in den `main`-Branch integriert werden kann und soll. Wird der Pull-Request bestätigt, sind deine Änderungen dann ab sofort im `main`-Branch integriert.
+
+Wechsle auf deinem Computer wieder auf den `main`-Branch zurück und führe ein `git pull` durch! Damit holst du dir den aktuellen Stand des `main`-Branches von GitHub, der nun auch deine Änderungen enthält. Der Branch, den du vorher auf deinem Gerät erstellt hast, wird jetzt nicht mehr benötigt und du solltest ihn nun löschen.
+
+Möchtest du eine weitere Änderung erstellen, erzeuge dir wieder einen neuen Branch aus dem aktuellen `main`-Branch.
