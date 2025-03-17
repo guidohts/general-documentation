@@ -37,3 +37,43 @@
   - Bei "Scopes" wähle alle von "Repo" aus!
   - Klicke dann ganz unten auf "Generate Token"!
   - Das generierte Token wird dir angezeigt. Sichere es dir. Es kann später nicht noch einmal angezeigt werden. Du kannst jedoch jederzeit das Token löschen und ein neues Generieren.
+ 
+## Anlegen eines Repositories auf GitHub
+
+Du kannst dann auf GitHub ein neues Projekt anlegen. Für den Namen werden Kleinbuchstaben empfohlen. Akzeptiere den Vorschlag, dass eine neue Datei mit dem Namen `README.md` angelegt wird. Diese Datei dient der Dokumentation und wird automatisch für dein Projekt angezeigt.
+
+## Klonen deines neuen Projektes auf deinen Rechner
+
+Wenn du das Projekt mit der Datei `README.md` angelegt hast, dann kannst du auf den grünen Button klicken und dir die URL für HTTPS kopieren.
+
+Erzeuge dir auf deinem Rechner einen Ordner für alle zukünftigen Ordner, z.B. `/home/monalisa/src`!
+
+Führe dann in diesem Ordner ein `git clone` aus mit der gerade eben kopierten HTTPS-URL, z.B.
+
+```git clone https://github.com/monalisa/project1.git```
+
+Du bekommst dann einen Ordner namens `project1` im Beispiel, der dann deine `README.md` enthält. Du kannst diesen Ordner mit deiner IDE öffnen, z.B. VS Code und kannst Änderungen an deinem Projekt vornehmen.
+
+## Änderungen an GitHub übertragen
+
+Alle Dateien, deren Änderungen gespeichert werden sollen, müssen zu einer sog. Staging Area zugefügt werden. Du kannst z.B. das Kommando
+
+```git add .```
+
+ausführen. Damit werden alle Dateien zur Staging Area zugefügt.
+
+Alle vorgemerkten Dateien werden mit dem nächsten Kommando in die Versionshistorie eingetragen. Die Änderung ist damit durchgeführt:
+
+```git commit -m "Update README.md"```
+
+Aus der Message sollte hervorgehen, was du gemacht hast.
+
+Bis jetzt wurden deine Änderungen nur lokal auf deinem Rechner ausgeführt. Das funktioniert also alles auch ohne Netz. Wenn du die lokalen Änderungen an GitHub übertragen möchtest, verwende das Kommando
+
+```git push```
+
+Die Änderungen sind dann auch auf der Webseite von GitHub zu sehen. Wenn du auf der Webseite Änderungen an deinen Dateien durchführst, kannst du diese Änderungen auf deinen Rechner herunterladen mit dem Kommando
+
+```git pull```
+
+
