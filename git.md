@@ -78,7 +78,7 @@ Die Änderungen sind dann auch auf der Webseite von GitHub zu sehen. Wenn du auf
 
 ```git pull```
 
-## Wichtige Hinweise
+## Auf GitHub oder lokal starten? Wichtige Hinweise
 
 Entweder du beginnst mit einem neuen Projekt auf GitHub, fügst eine `README.md` hinzu und klonst dann das Projekt auf deinen Rechner.
 
@@ -87,4 +87,15 @@ Wenn du jedoch lokal beginnen möchtest, und noch kein Projekt auf GitHub hast, 
 ```git init```
 
 Du kannst dann deine Änderungen alle lokal auf deinen Rechner "committen". Falls du dann später doch ein Repository auf GitHub anlegen möchtest, achte darauf, diesmal *keine* `README.md` oder eine andere Datei zuzufügen! GitHub zeigt dir an, wie du dein lokales Repository auf GitHub hochladen kannst.
+
+## Mit anderen Leuten zusammenarbeiten
+
+Wenn du ganz alleine an einem Projekt arbeitest, wirst du keinen anderen stören. Möchtest du aber mit anderen Leuten zusammarbeiten an einem Projekt, besteht die Gefahr, dass ihr euch möglicherweise gegenseitig behindert.
+
+Dazu kennt Git das Konzept der Verzweigungen - Branches. Wenn du alleine arbeitest, dann benutzt du vielleicht nur den Branch mit dem Namen `main`. In der Vergangenheit nannte man diesen Branch `master`. 
+
+Wenn du mit anderen Leuten zusammenarbeitest, werden die anderen Leute sicherlich andere Teile des Projekts bearbeitet. Damit jede(r) Mitarbeiter/in für sich ungestört arbeiten kann, erzeugt er/sie sich einen Branch für die aktuelle Aufgabe, die gerade von ihm/ihr bearbeitet wird.
+
+Diesen Branch kannst du zuerst lokal erzeugen auf deinem PC. Deine Änderungen machst du dann ausschließlich auf deisem Branch. Bist du fertig mit all deinen Änderungen, dann veröffentlichst du deinen Branch auf GitHub. Noch ist der `main`-Branch davon nicht beeinflusst.
+
 
