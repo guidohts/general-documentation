@@ -1,5 +1,7 @@
 # Aufgaben Betriebssysteme
 
+## Dateisysstemkommandos
+
 Dateioperationen
 cp (Kopieren)
 
@@ -61,3 +63,30 @@ Erstelle ein Skript, das folgende Schritte ausführt:
     Fügt Text in eine Datei ein und zeigt ihn an.
 
     Löscht eine Datei und das Verzeichnis.
+
+### Suchmuster für Dateien - Reguläre Ausdrücke
+
+Aufgaben mit dem Platzhalter ?
+
+    Erstelle drei Dateien namens "datei1.txt", "datei2.txt" und "datei3.txt". Verwende dann den Befehl ls datei?.txt, um alle diese Dateien aufzulisten.
+
+    Erstelle Dateien mit den Namen "a1.log", "b2.log" und "c3.log". Benutze den Befehl mv ??.log logs/, um alle diese Dateien in ein Verzeichnis namens "logs" zu verschieben.
+
+    Kopiere alle Dateien, die genau fünf Zeichen im Namen haben und mit ".txt" enden, in ein Backup-Verzeichnis: cp ?????.txt backup/
+
+Aufgaben mit dem Platzhalter *
+
+    Liste alle Dateien in deinem aktuellen Verzeichnis auf, die mit "test" beginnen: ls test*
+
+    Lösche alle Dateien mit der Endung ".tmp" im aktuellen Verzeichnis: rm *.tmp
+
+    Verschiebe alle JPEG-Bilder (Endungen .jpg oder .jpeg) in einen Ordner namens "Bilder": mv *.jp* Bilder/
+
+Kombinierte Aufgaben
+
+    Erstelle ein Skript, das alle Textdateien (.txt) findet, deren Namen mit einem Buchstaben beginnen und eine einstellige Zahl enthalten: ls [a-z]*[0-9]*.txt
+
+    Schreibe ein Kommando, das alle Dateien anzeigt, die genau drei Zeichen vor dem Punkt in ihrem Namen haben, unabhängig von der Dateiendung: ls ???.*
+
+    Erstelle ein Backup aller Konfigurationsdateien im /etc-Verzeichnis, die mit "conf" enden: sudo cp /etc/*.conf /backup/
+
