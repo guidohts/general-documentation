@@ -96,3 +96,11 @@ dieses Kurses.
 - Beschreibe die Wirkung der oben genannten Operatoren!
 
 ### Texteditor
+
+Du sollst hier die grundlegende Funktion des Editors `vi` kennenlernen.
+
+- Starten des Editors mit Angabe eines Dateinamens
+- Wechseln in den Einfügemodus
+- Verlassen des Einfügemodus
+- Verlassen des Editors mit Speichern (`ZZ`, `:wq`, `:x`)
+- Verlassen des Editors ohne Speichern (`:q`, `:q!`)
