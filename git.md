@@ -28,7 +28,7 @@
 - Es gibt zwei Protokolle, um mit GitHub zu kommunizieren: HTTPS und SSH
   SSH funktioniert aus der Hochtaunusschule nicht, weil du nicht durch die Firewall kommst.
 
-- Um mit HTTPS auf deinem Repo Updates zu machen, benötigst du ein Personal Access Token (PAT).
+- Diesen Schritt brauchst du nicht zu machen, wenn du mit Git unter Windows arbeitest: Um mit HTTPS auf deinem Repo Updates zu machen, benötigst du ein Personal Access Token (PAT).
   Das kannst du so erzeugen:
   - Klicke in GitHub auf das Symbol rechts oben, welches für deinen Account steht!
   - Gehe auf Settings!
