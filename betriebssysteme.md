@@ -84,12 +84,12 @@ dieses Kurses.
 
 ### Ein- und Ausgabeumlenkung und Kommandopipelines
 
-- `<`
-- `>`
-- `>>`
-- `|`
-- `<<` (HEREDOC)
 - Kanäle `stdin (0)`, `stdout (1)`, `stderr (2)`
+- `>` und `2>`
+- `>>`
+- `<`
+- `<<` (HEREDOC)
+- `|`
 
 *Aufgaben:*
 
