@@ -95,6 +95,17 @@ dieses Kurses.
 
 - Mach dich mit den drei Kanälen vertraut!
 - Beschreibe die Wirkung der oben genannten Operatoren!
+- Ich benötige eine Datei wonderful_day.txt mit diesem Inhalt:
+  
+  ```
+  Today
+  is
+  a
+  wonderful
+  day.
+  ```
+
+  Erzeuge diese Datei mit den oben genannten Kommandos! Es werden zwei verschiedene Möglichkeiten gesucht.
 
 ### Texteditor
 
