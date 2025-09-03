@@ -88,6 +88,7 @@ dieses Kurses.
 - `>`
 - `>>`
 - `|`
+- `<<` (HEREDOC)
 - Kanäle `stdin (0)`, `stdout (1)`, `stderr (2)`
 
 *Aufgaben:*
